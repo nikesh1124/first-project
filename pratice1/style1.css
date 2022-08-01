@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+   }
+.page1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(../pratice1/photo2.jpg) ;
+    opacity: 0.7;
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    height: 75px;
+    width: 100%;
+    background: none;
+    /* background-color: aquamarine; */
+}
+.logo{
+    height: 67px;
+    width: 77px;
+    position: absolute;
+    left: 81px;
+    top: 5px;
+    border-radius: 62px;
+}
+img.logo{
+    float: left;
+    height: 60px;
+    width: 60px;
+    left: 61px;
+}
+div1{
+    width: 60%;
+    margin: auto;
+}
+li{
+    font-family: Lucida Bright,Georgia,serif;
+    display: inline-block;
+    font-style: none;
+    font-weight: bold;
+    color: white;
+   
+    font-size: 20px;
+    padding: 20px 45px;
+}
+li#sear{
+       float: right;
+    width: 400px;
+    /* top: 24px; */
+    position: relative;
+    bottom: 27px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+/* 
+#para{
+    border: 1px solid rgb(247, 252, 252);
+    padding: 1px 6px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+   
+    font-size: 17px;
+    position: absolute;
+    top: 27px;
+    right: 68px;
+}
+#para:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+} */
+.content{
+    width: 80%;
+    position: absolute;
+    top: 217px;
+    left: 10%;
+    text-align: center;
+}
+#con{
+    /* background-color: aquamarine; */
+    color: white;
+    display: inline-block;
+    width: 50%;
+}
+#p1{
+    font-size: 30px;
+    text-align: left;
+    padding: 12px;
+}
+#p2{
+    text-align: left;
+    font-size: 17px;
+    padding-left: 12px;
+}
+#con2{
+
+    display: inline-block;
+}
+img#logo1{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: relative;
+    border: 2px solid purple;
+    right: 37px;
+}
+
+#btn{
+    text-align: left;
+    margin-top: 10px;
+}
+.btn1{
+    color: white;
+    background: none;
+    border: 2px solid rgb(244, 237, 244);
+    padding: 4px 25px;
+    border-radius: 5px;
+    margin: 0 6px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#page2{
+    width: 70%;
+    margin: 33px auto;
+    border: 2px solid #a39797;
+    border-radius: 12px;
+}
+p#p1,p#p3,p#p2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 6px;
+}
+
+#con1,p,#con4{
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 6px;
+}
+#con3,p{
+    margin: 10px;
+    display: flex;
+    color: #6b706d;
+    flex-direction: row row-reverse;
+}
+
+#con1 img,#con3 img,#con4 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    position: relative;
+    top: 7px;
+}
+#page3{
+    width: 80%;
+    margin: auto;
+    margin-top: 57px;
+}
+input,textarea{
+    margin: 31px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 2px solid #c3bdbd;
+    border-radius: 5px;
+    padding: 11px;
+    outline: none;
+    width: 60%;
+}
+input#btn{
+    background-color: rgb(171 177 183);
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px 301px;
+}
+input#btn:hover{
+    cursor: pointer;
+    background-color: rgb(171 194 217);
+    color: white;
+}
